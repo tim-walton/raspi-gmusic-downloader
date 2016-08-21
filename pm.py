@@ -16,7 +16,7 @@ api = Mobileclient()
 #mm.login()
 
 #login to Mobileclient
-logged_in = api.login('timdwalton@gmail.com', '', Mobileclient.FROM_MAC_ADDRESS, 'en_us')
+logged_in = api.login('<email address goes here>', '<password goes here>', Mobileclient.FROM_MAC_ADDRESS, 'en_us')
 
 #get all tracks from library
 tracks = api.get_all_songs()
